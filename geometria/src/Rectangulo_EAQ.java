@@ -9,19 +9,19 @@
 public class Rectangulo extends FiguraGeometrica {
 	private double l1;
 	private double l2;
-	
+
 	/**
 	 * 
 	 * @param tipoFigura recoge el tipo de la figura geometrica
-	 * @param lG medida de lado 1
-	 * @param lP medida de lado 2
+	 * @param lG         medida de lado 1
+	 * @param lP         medida de lado 2
 	 */
 	public Rectangulo(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;
 		l2 = lP;
 	}
-	
+
 	@Override
 	/**
 	 * 
@@ -30,7 +30,7 @@ public class Rectangulo extends FiguraGeometrica {
 	public double area() {
 		return l1 * l2;
 	}
-	
+
 	@Override
 	/**
 	 * 
