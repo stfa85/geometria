@@ -6,7 +6,7 @@
  * @version 1.2
  * 
  */
-public class Rectangulo extends FiguraGeometrica {
+public class Rectangulo_EAQ extends FiguraGeometrica_EAQ {
 	private double l1;
 	private double l2;
 
@@ -16,7 +16,7 @@ public class Rectangulo extends FiguraGeometrica {
 	 * @param lG         medida de lado 1
 	 * @param lP         medida de lado 2
 	 */
-	public Rectangulo(String tipoFigura, double lG, double lP) {
+	public Rectangulo_EAQ(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;
 		l2 = lP;

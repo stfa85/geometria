@@ -1,10 +1,10 @@
 
-public class Triangulo extends FiguraGeometrica {
+public class Triangulo_EAQ extends FiguraGeometrica_EAQ {
 	private double a;
 	private double b;
 	private double c;
 
-	public Triangulo(String tipoFigura, double lado1, double lado2, double lado3) {
+	public Triangulo_EAQ(String tipoFigura, double lado1, double lado2, double lado3) {
 		super(tipoFigura);
 		a = lado1;
 		b = lado2;
